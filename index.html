@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giphy API Search Example</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section>
+            <div class="api-section">
+
+                <div class="head-title">
+                    <h1>Giphy API Example</h1>
+                </div>
+
+                <div id="buttons">
+                    <div id = "btnS">
+                        <input type="button" id="button1" value="Internet Cats">
+                        <input type="button" id="button2" value="Meme's">
+                        <input type="button" id="button3" value="Typing">
+                        <input type="button" id="button4" value="Space">
+                        <input type="button" id="button5" value="Rick and Morty">
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <input type="text" name="query" id="userSearch">
+                    <input type="submit" value="Submit" id="submit">
+                    <input type="button" value="See what's trending" id="buttonTrend">
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div id="results">
+                    <div class='trend-items' id="trendItems">
+
+                    </div>
+                    
+                    <div class='search-items' id="searchItems">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <script type="module" src="./js/main.js"></script>
+    </body>
+</html>
